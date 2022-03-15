@@ -9,6 +9,8 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
+      "omnisharp.useModernNet": true,
+      "watch": true,
       // If you have changed target frameworks, make sure to update the program path.
       "program": "${workspaceFolder}/bin/Debug/net6.0/BlazingPizza.dll",
       "args": [],
